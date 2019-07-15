@@ -7,12 +7,12 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="thud" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="2f28749040692b2267cb72303365bf3d2a391fef" upstream="master" name="meta-ti" path="sources/meta-ti"/>
-  <project remote="oe" revision="thud" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="bytesatwork" revision="thud" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="thud" name="meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
-  <project remote="bytesatwork" revision="thud" name="bsp-base" path="sources/base">
+  <project remote="yocto" revision="warrior" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="29219faf16b2fb36918a269beb0ed6fd55b3ea59" upstream="master" name="meta-ti" path="sources/meta-ti"/>
+  <project remote="oe" revision="warrior" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="bytesatwork" revision="warrior" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="bytesatwork" revision="warrior" name="meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
+  <project remote="bytesatwork" revision="warrior" name="bsp-base" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
