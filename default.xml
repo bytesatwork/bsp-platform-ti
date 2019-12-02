@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="thud"/>
+  <default sync-j="4" revision="warrior"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="warrior" name="poky" path="sources/poky"/>
+  <project remote="yocto" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="29219faf16b2fb36918a269beb0ed6fd55b3ea59" upstream="master" name="meta-ti" path="sources/meta-ti"/>
-  <project remote="oe" revision="warrior" name="meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="bytesatwork" revision="warrior" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="warrior" name="meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
-  <project remote="bytesatwork" revision="warrior" name="bsp-base" path="sources/base">
+  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="bytesatwork" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="bytesatwork" name="meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
+  <project remote="bytesatwork" name="bsp-base" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
