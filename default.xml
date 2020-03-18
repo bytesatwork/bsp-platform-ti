@@ -5,11 +5,15 @@
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/intel-iot-devkit" name="intel-iot"/>
+  <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
   <project remote="yocto" revision="5e1f52edb7a9f790fb6cb5d96502f3690267c1b1" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="f35a0fdd869110d268c14ba6925f589152791127" upstream="master" name="meta-ti" path="sources/meta-ti"/>
   <project remote="oe" revision="bb65c27a772723dfe2c15b5e1b27bcc1a1ed884c" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="intel-iot" revision="801c2c7e5e378a92884f3e653efd30762a2d8a6b" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="rust" revision="1a3625364cdca31cb37f5c47b678523277b1374c" name="meta-rust" path="sources/meta-rust"/>
   <project remote="bytesatwork" revision="a0e5c38cc9e1c84687d0a88e661ff3930b484779" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
   <project remote="bytesatwork" revision="ef46e10afbd2343c9d64d95910b96cadc9ed1d49" name="meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
   <project remote="bytesatwork" revision="3dabbde2df06c37c4aebf49103a46821c4b75ccc" name="bsp-base-ti" path="sources/base">
