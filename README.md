@@ -7,7 +7,7 @@ procedure for bytePANEL by [bytes at work AG](https://www.bytesatwork.ch).
 
 Use repo to download all necessary repositories:
 
-	repo init -u https://github.com/bytesatwork/bsp-platform.git -b zeus
+	repo init -u https://github.com/bytesatwork/bsp-platform-ti.git -b zeus
 	repo sync
 
 When this commands completed successful, the following command will setup a
