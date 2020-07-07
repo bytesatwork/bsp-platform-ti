@@ -1,7 +1,7 @@
-# bytes at work AG BSP platform manifest
+# bytes at work AG BSP platform manifest for am335x based modules
 
-This contains the manifest for repo and is intended to simplify the build
-procedure for bytePANEL by [bytes at work AG](https://www.bytesatwork.ch).
+This contains the manifest for [repo](https://source.android.com/setup/develop/repo) and is intended to
+simplify the build procedure for bytePANEL by [bytes at work AG](https://www.bytesatwork.ch).
 
 ## Usage
 
