@@ -17,7 +17,7 @@
   <project remote="qt5" revision="852e279a45da2b68719fecdaad3573b2ada9558c" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="rust" revision="1a3625364cdca31cb37f5c47b678523277b1374c" name="meta-rust" path="sources/meta-rust"/>
   <project remote="bytesatwork" revision="fb8e6778b4171db8891f68369ddea818cddad1e4" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="bytesatwork" revision="ef46e10afbd2343c9d64d95910b96cadc9ed1d49" name="meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
+  <project remote="bytesatwork" revision="9e90a51e933ea1f1718ebd238fbf8bba8afa8641" name="meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
   <project remote="bytesatwork" revision="569513096ff8064a8eef582af37c0df6685a71e0" name="bsp-base-ti" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
