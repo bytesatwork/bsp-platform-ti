@@ -7,7 +7,7 @@ simplify the build procedure for byteDEVKIT AM335x by [bytes at work AG](https:/
 
 Use repo to download all necessary repositories:
 
-	repo init -u https://github.com/bytesatwork/bsp-platform-ti.git -b dunfell
+	repo init -u https://github.com/bytesatwork/bsp-platform-ti.git -b dunfell-next
 	repo sync
 
 When this commands completed successful, the following command will setup a
