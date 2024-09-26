@@ -1,7 +1,7 @@
-# bytes at work AG BSP platform manifest for AM335x and AM62x based modules
+# bytesatwork AG BSP platform manifest for AM335x and AM62x based modules
 
 This repository contains the manifest for [repo](https://source.android.com/setup/develop/repo) and is intended to
-simplify the build procedure for byteDEVKIT AM335x and byteDEVKIT AM62x by [bytes at work AG](https://www.bytesatwork.io).
+simplify the build procedure for byteDEVKIT AM335x and byteDEVKIT AM62x by [bytesatwork AG](https://www.bytesatwork.io).
 
 ## Usage
 
@@ -30,3 +30,6 @@ The output is found in:
 or:
 
 	tmp/deploy/images/bytedevkit-am62x
+
+## Note
+The software provided is optimized for development convenience and is not suitable for use in production.
