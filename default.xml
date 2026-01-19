@@ -6,14 +6,14 @@
   <remote fetch="https://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="https://github.com/" name="github"/>
 
-  <project remote="yocto" revision="e711b2f39a94879812e5d7f721018f911f25ce38" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="950a4afce46a359def2958bd9ae33fc08ff9bb0d" name="meta-arm" path="sources/meta-arm"/>
-  <project remote="yocto" revision="5385fb9231e8d48c30ddd965c4cc623a1f004e3e" name="meta-ti" path="sources/meta-ti"/>
-  <project remote="github" revision="e8fd97d86af86cdcc5a6eb3f301cbaf6a2084943" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="github" revision="7e8ce5ed80fd950d09cb9f78ee039c3c35f2bcff" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="github" revision="554fc20c326a9b205169331644f0cb471619e63c" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
-  <project remote="github" revision="879a3ddff10b641d96cd7f3405a4d132d65dc988" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="github" revision="fb618c3232740642d5f254416e761ba824d0a9e8" name="bytesatwork/meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
+  <project remote="yocto" revision="72983ac391008ebceb45edc7a8f0f6d5f4fe715c" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="8e0f8af90fefb03f08cd2228cde7a89902a6b37c" name="meta-arm" path="sources/meta-arm"/>
+  <project remote="yocto" revision="59354be6c2362b9f7d0a3cd2c017f2f3c6ab7f2e" name="meta-ti" path="sources/meta-ti"/>
+  <project remote="github" revision="2759d8870ea387b76c902070bed8a6649ff47b56" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="github" revision="160081f4baed50d5221e310bfc12f46a7c299348" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="github" revision="9ae2fe2696b10f5dc4253c4f467dc388139860bd" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="9a2aa948fefaed65fc08f13f7426b899ded0e356" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="github" revision="ea3fb1a391a61c2baf84a81928537c9bf95e9b9a" name="bytesatwork/meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
   <project remote="github" revision="813a7741e4d102d3709a5c38602287002e5b48af" name="bytesatwork/bsp-base-ti" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
