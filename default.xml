@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="scarthgap"/>
+  <default sync-j="4" revision="wrynose"/>
 
   <remote fetch="https://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="https://github.com/" name="github"/>
+  <remote fetch="https://git.openembedded.org/" name="openembedded"/>
 
-  <project remote="yocto" revision="72983ac391008ebceb45edc7a8f0f6d5f4fe715c" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="8e0f8af90fefb03f08cd2228cde7a89902a6b37c" name="meta-arm" path="sources/meta-arm"/>
-  <project remote="yocto" revision="59354be6c2362b9f7d0a3cd2c017f2f3c6ab7f2e" name="meta-ti" path="sources/meta-ti"/>
-  <project remote="github" revision="2759d8870ea387b76c902070bed8a6649ff47b56" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
-  <project remote="github" revision="160081f4baed50d5221e310bfc12f46a7c299348" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
-  <project remote="github" revision="9ae2fe2696b10f5dc4253c4f467dc388139860bd" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
-  <project remote="github" revision="9a2aa948fefaed65fc08f13f7426b899ded0e356" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="github" revision="ea3fb1a391a61c2baf84a81928537c9bf95e9b9a" name="bytesatwork/meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
-  <project remote="github" revision="813a7741e4d102d3709a5c38602287002e5b48af" name="bytesatwork/bsp-base-ti" path="sources/base">
+  <project remote="openembedded" revision="acfe02fa38b5da9e6a36c6cedcf91d4fcbefbfbd" name="bitbake" path="sources/bitbake"/>
+  <project remote="openembedded" revision="ef022bf82d79015802309d14c28b13373ebe53f5" name="openembedded-core" path="sources/openembedded-core"/>
+  <project remote="yocto" revision="0979b80429099f1a42dc0026c8c466cee780bc74" name="meta-arm" path="sources/meta-arm"/>
+  <project remote="yocto" revision="f342599208f7550f6d29175a568e4835e9f3186f" name="meta-ti" path="sources/meta-ti"/>
+  <project remote="yocto" revision="1b132647002eea43a2c7a7f857f63f42dacbc26c" name="meta-yocto" path="sources/meta-yocto"/>
+  <project remote="github" revision="6bf0d8ad57b33950bab4c7f6c037e1ccb6f6e2eb" name="openembedded/meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="github" revision="ab3b8dae145aa928b60039171d860f966867b1c3" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
+  <project remote="github" revision="cf98b07697c541d4b47f433c1a18cd406cd7917c" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
+  <project remote="github" revision="1ece808633bda098586e023fb868cd98aa78a42e" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
+  <project remote="github" revision="0ef937d02e8957bc28e5565397b81f3c36c54f5a" name="bytesatwork/meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
+  <project remote="github" revision="37bf2d396641786104229c371cc8208bec633664" name="bytesatwork/bsp-base-ti" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
   </project>
