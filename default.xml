@@ -16,7 +16,7 @@
   <project remote="github" revision="ab3b8dae145aa928b60039171d860f966867b1c3" name="intel-iot-devkit/meta-iot-cloud" path="sources/meta-iot-cloud"/>
   <project remote="github" revision="cf98b07697c541d4b47f433c1a18cd406cd7917c" name="meta-qt5/meta-qt5" path="sources/meta-qt5"/>
   <project remote="github" revision="1ece808633bda098586e023fb868cd98aa78a42e" name="bytesatwork/meta-bytesatwork" path="sources/meta-bytesatwork"/>
-  <project remote="github" revision="0ef937d02e8957bc28e5565397b81f3c36c54f5a" name="bytesatwork/meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
+  <project remote="github" revision="76093e4d56ee105cfc18acd759e410c39cf10694" name="bytesatwork/meta-bytesatwork-ti" path="sources/meta-bytesatwork-ti"/>
   <project remote="github" revision="37bf2d396641786104229c371cc8208bec633664" name="bytesatwork/bsp-base-ti" path="sources/base">
     <copyfile dest="README.md" src="README.md"/>
     <copyfile dest="setup-environment" src="setup-environment"/>
